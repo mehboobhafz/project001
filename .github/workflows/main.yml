@@ -40,5 +40,5 @@ jobs:
       run: npm -g install surge
       
     - name: Deplying on surge
-      run: surge ./build http://mehreact.surge.sh/ --token ${{secrets.TKN}}  
+      run: surge ./build http://mehreact.surge.sh/ --token ${{secrets.REACTTKN}}
     
