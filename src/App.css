@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.App2Class{
+  background-color: #61dafb;
+  text-align: center;
+}
